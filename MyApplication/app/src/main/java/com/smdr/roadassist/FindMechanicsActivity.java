@@ -354,7 +354,7 @@ public class FindMechanicsActivity extends AppCompatActivity {
         String url = "https://maps.googleapis.com/maps/api/directions/json?origin="
                 + originLat + "," + originLng
                 + "&destination=" + destLat + "," + destLng
-                + "&mode=driving&key=AIzaSyBIm8OGgUT8UV8QJitZ7aSwNb2FSQ-RyAA";
+                + "&mode=driving&key=";
 
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(url).build();
