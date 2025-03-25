@@ -45,7 +45,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBIm8OGgUT8UV8QJitZ7aSwNb2FSQ-RyAA" />
+            android:value="" />
 
         <service
             android:name=".MechanicLocationService"
