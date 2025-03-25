@@ -124,7 +124,7 @@ public class TowingRegistrationActivity extends AppCompatActivity {
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyBIm8OGgUT8UV8QJitZ7aSwNb2FSQ-RyAA");
+            Places.initialize(getApplicationContext(), "");
         }
     }
 
