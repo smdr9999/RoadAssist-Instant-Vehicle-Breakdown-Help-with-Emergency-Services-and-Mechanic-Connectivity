@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436750139267",
+    "project_id": "roadassist-3f31b",
+    "storage_bucket": "roadassist-3f31b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436750139267:android:5f355363f384de813e80b6",
+        "android_client_info": {
+          "package_name": "com.smdr.roadassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436750139267-v7s7o5d91v2r9d9qqsqjapojg1bmtm22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLqs1jYRrjj244veHmTspXDJrTeqO-zns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436750139267-v7s7o5d91v2r9d9qqsqjapojg1bmtm22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
