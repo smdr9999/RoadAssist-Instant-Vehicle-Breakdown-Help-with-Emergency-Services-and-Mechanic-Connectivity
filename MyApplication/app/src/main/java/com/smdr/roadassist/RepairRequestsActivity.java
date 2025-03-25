@@ -57,7 +57,7 @@ public class RepairRequestsActivity extends AppCompatActivity {
     private static final int GPS_ENABLE_REQUEST_CODE = 2;
     private static final String TAG = "RepairRequestsActivity";
     // Google Directions API key – replace with your key.
-    private static final String DIRECTIONS_API_KEY = "AIzaSyBIm8OGgUT8UV8QJitZ7aSwNb2FSQ-RyAA";
+    private static final String DIRECTIONS_API_KEY = "";
 
     private FusedLocationProviderClient fusedLocationClient;
     private Location mechanicLocation; // Mechanic's current location (from GPS)
