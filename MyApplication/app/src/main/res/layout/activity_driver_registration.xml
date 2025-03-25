@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver Registration"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etDriverName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:minHeight="48dp"
+            android:padding="10dp"/>
+
+        <!-- Spinner for Vehicle Type -->
+        <Spinner
+            android:id="@+id/spinnerVehicleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnUploadDriverPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Profile Photo"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnUploadLicense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Driving License"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnUploadInsurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Insurance Certificate"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnRegisterDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title for the repair requests screen -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requests"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Progress bar shown while loading data -->
+    <ProgressBar
+        android:id="@+id/progressBarRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- Message displayed when there are no repair requests -->
+    <TextView
+        android:id="@+id/tvNoRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No repair requests available."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <!-- RecyclerView for displaying the list of repair requests -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRequests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="10dp"
+        android:clipToPadding="false"
+        android:visibility="gone" />
+
+</RelativeLayout>

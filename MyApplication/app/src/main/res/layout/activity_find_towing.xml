@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_find_towing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby Towing Services"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- TextView for "No towing services found" message -->
+    <TextView
+        android:id="@+id/noTowingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No towing services found nearby."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="20dp" />
+
+    <!-- RecyclerView for displaying towing companies list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:clipToPadding="false"
+        android:visibility="gone" />
+
+    <!-- TextView to display user's current location -->
+    <TextView
+        android:id="@+id/userLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Location: "
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

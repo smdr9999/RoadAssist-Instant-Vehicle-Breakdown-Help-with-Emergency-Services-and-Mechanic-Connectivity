@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow Effect -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#B38850" /> <!-- Shadow color -->
+            <size android:width="160dp" android:height="160dp"/>
+        </shape>
+    </item>
+
+    <!-- Main Circular Button -->
+    <item android:top="5dp" android:bottom="5dp">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="270"
+                android:startColor="#FF5722"
+                android:endColor="#E64A19"
+                android:type="linear"/>
+            <size android:width="150dp" android:height="150dp"/>
+            <stroke android:width="4dp" android:color="#FFC107"/> <!-- Golden Border -->
+            <corners android:radius="75dp"/>
+        </shape>
+    </item>
+</layer-list>
